@@ -15,3 +15,17 @@ Question: What are some situations when branches would be helpful in keeping you
 history organized? How would branches help?
 Answer: When we want to try something big on the current project. without effecting
 much in the current state.
+
+Question: How do the diagrams help you visualize the branch structure?
+Answer: Diagram helps us to see parent child relationship clearly between commits.
+Also it let us know which commits are reachable and which aren't.
+
+Question: What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+Merging two branches include changes of both branches and tells about conflict if any.
+We represent it in a diagram because it takes the changes of both branches and
+after merging both places the head is placed to latest change.
+
+Question: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Answer: Git automatic merging automates the whole process and intelligently merge
+changes based on lines of changes.
